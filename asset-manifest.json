@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Stargaze/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Stargaze/static/js/main.f8918c25.chunk.js",
+    "main.js.map": "/Stargaze/static/js/main.f8918c25.chunk.js.map",
+    "runtime-main.js": "/Stargaze/static/js/runtime-main.05ddc7a1.js",
+    "runtime-main.js.map": "/Stargaze/static/js/runtime-main.05ddc7a1.js.map",
+    "static/js/2.14a1b376.chunk.js": "/Stargaze/static/js/2.14a1b376.chunk.js",
+    "static/js/2.14a1b376.chunk.js.map": "/Stargaze/static/js/2.14a1b376.chunk.js.map",
+    "index.html": "/Stargaze/index.html",
+    "precache-manifest.d8daf70d97e78d4b95642b630950e2c8.js": "/Stargaze/precache-manifest.d8daf70d97e78d4b95642b630950e2c8.js",
+    "service-worker.js": "/Stargaze/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Stargaze/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.14a1b376.chunk.js.LICENSE.txt": "/Stargaze/static/js/2.14a1b376.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Stargaze/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05ddc7a1.js",
+    "static/js/2.14a1b376.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.f8918c25.chunk.js"
+  ]
+}
