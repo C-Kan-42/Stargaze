@@ -1,13 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import "./App.scss"
+import Header from "./components/Header/header"
+import DropdownMenu from "./components/Dropdown/dropdown"
 
 function App() {
   return (
     <div className="App">
-      Stargaze
+      <Header header="Stargaze"/>
+      <DropdownMenu />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

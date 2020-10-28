@@ -1,0 +1,5 @@
+$font-primary: 'Distant Galaxy', sans-serif;
+
+@mixin font-stack-primary {
+  font-family: $font-primary;
+}

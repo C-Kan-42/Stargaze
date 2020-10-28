@@ -1,0 +1,30 @@
+@import '../../global/utils/init';
+
+.header {
+    // @include font-stack-primary;
+    font-family: 'Codystar', cursive;
+    background-color: $color-black;
+    // color: $primary-font-color;
+    display: block;
+    height: 80px;
+    left: 0px;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link {
+    flex: 0;
+    color: $primary-font-color;
+    text-decoration: none;
+}
+
+
+
+.nav {
+  margin-left: auto;
+  flex:0;
+}
