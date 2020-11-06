@@ -1,16 +1,17 @@
 @import '../../global/utils/init';
+@import '../../global/utils/colors';
 
 .menuContainer {
   position: relative;
 }
 
 .menu {
-  background: $color-black;
-  color: $color-white;
+  background-color: $color-white;
+  color: $color-black;
   border-radius: 8px;
   position: absolute;
-  top: 60px;
-  right: 0;
+  top: 63px;
+  right: -12px;
   width: 300px;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
   transform: translateY(-20px);
@@ -30,10 +31,10 @@
 
   li {
     border-bottom: 1px solid #dddddd;
-    color: $color-black;
+    // color: $color-white;
     a {
         text-decoration: none;
-        color: $color-white;
+        color: $color-black;
         padding: 15px 20px;
         display: block;
     }
@@ -48,7 +49,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4px 6px;
+  padding: 14px 16px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   border: none;
   vertical-align: middle;
@@ -76,8 +77,9 @@
         content: '';
         position: absolute;
         background-image: url('./images/arrow-down.svg');
-        width: 20px;
-        height: 20px;
+        width: 10px;
+        height: 10px;
+        margin: 5px;
     } 
 }
 

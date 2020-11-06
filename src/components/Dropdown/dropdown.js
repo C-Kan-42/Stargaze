@@ -1,6 +1,7 @@
 import React, {useState, useRef} from "react";
 import classnames from 'classnames';
 import styles from "./dropdown.module.scss";
+import '../Location/location';
 
 const DropdownMenu = () => {
   const [isActive, setIsActive] = useState(false);
@@ -14,9 +15,9 @@ const DropdownMenu = () => {
       {isActive &&
         <nav className={styles.menu}>
             <ul>
-            <li><a href="#">San Francisco</a></li>
-            <li><a href="#">Portland</a></li>
-            <li><a href="#">Los Angeles</a></li>
+            <li><a href="/sf">San Francisco</a></li>
+            <li><a href="/pdx">Portland</a></li>
+            <li><a href="/la">Los Angeles</a></li>
             </ul>
         </nav>
       }
