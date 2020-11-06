@@ -18,9 +18,9 @@ function App() {
           <Switch>
             <Route exact path="/" component={DropdownMenu} />
             <Route exact path="/about" component={About} />
-            <Route exact path="/sf" component={Location} />
-            <Route exact path="/pdx" component={Location} />
-            <Route exact path="/la" component={Location} />
+            <Route exact path="/sf" render={() => <Location title={"San Francisco"} />} />
+            <Route exact path="/pdx" render={() => <Location title={"Portland"} />} />
+            <Route exact path="/la" render={() => <Location title={"Los Angeles"} />} />
             <Route component={NoMatch} />
           </Switch>
         </ContentLayout>

@@ -1,0 +1,19 @@
+{
+    "cards": [
+        {
+            "title": "Golden Gate Park",
+            "address": "123 Golden Gate Park",
+            "distance": "1.5 miles"
+        },
+        {
+            "title": "Grandview Park",
+            "address": "123 Grandview Park",
+            "distance": "2 miles"
+        },
+        {
+            "title": "Presidio",
+            "address": "123 Presidio",
+            "distance": "2.5 miles"
+        }
+    ]
+}
