@@ -1,47 +1,47 @@
 @import '../../global/utils/init';
 
-.menu-container {
+.menuContainer {
   position: relative;
 }
 
 .menu {
-  background: #ffffff;
+  background: $color-black;
+  color: $color-white;
   border-radius: 8px;
   position: absolute;
   top: 60px;
   right: 0;
   width: 300px;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  visibility: hidden;
   transform: translateY(-20px);
   transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+
+  .active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+  }
+
+  li {
+    border-bottom: 1px solid #dddddd;
+    color: $color-black;
+    a {
+        text-decoration: none;
+        color: $color-white;
+        padding: 15px 20px;
+        display: block;
+    }
+  }
+
 }
 
-.menu.active {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-.menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu li {
-  border-bottom: 1px solid #dddddd;
-}
-
-.menu li a {
-  text-decoration: none;
-  color: #333333;
-  padding: 15px 20px;
-  display: block;
-}
-
-.menu-trigger {
+.menuTrigger {
   background: #ffffff;
   border-radius: 90px;
   cursor: pointer;
@@ -53,19 +53,38 @@
   border: none;
   vertical-align: middle;
   transition: box-shadow 0.4s ease;
+
+  span {
+    font-weight: 700;
+    vertical-align: middle;
+    font-size: 14px;
+    margin: 0 10px;
+  }
+
+  img {
+    border-radius: 90px;
+  }
+
 }
 
-.menu-trigger:hover {
+.menuTrigger:hover {
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
 }
 
-.menu-trigger span {
-  font-weight: 700;
-  vertical-align: middle;
-  font-size: 14px;
-  margin: 0 10px;
+.buttonContent {
+    &::after {
+        content: '';
+        position: absolute;
+        background-image: url('./images/arrow-down.svg');
+        width: 20px;
+        height: 20px;
+    } 
 }
 
-.menu-trigger img {
-  border-radius: 90px;
+.open {
+    .buttonContent {
+        &::after {
+            transform: rotate(180deg);
+        } 
+    }
 }

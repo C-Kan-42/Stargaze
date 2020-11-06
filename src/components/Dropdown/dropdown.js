@@ -1,23 +1,25 @@
 import React, {useState, useRef} from "react";
+import classnames from 'classnames';
 import styles from "./dropdown.module.scss";
 
 const DropdownMenu = () => {
-  const dropdownRef = useRef(null);
   const [isActive, setIsActive] = useState(false);
-  const onClick = () => setIsActive(!isActive);
+  const openClass = isActive ?  styles.open : '';
 
   return (
-    <div className={"menu-container"}>
-      <button onClick={onClick} className="menu-trigger">
-        <span>Where do you want to stargaze?</span>
+    <div className={styles.menuContainer}>
+      <button onClick={() => setIsActive(!isActive)} className={classnames(styles.menuTrigger, openClass)}>
+        <span className={styles.buttonContent}>Where do you want to stargaze?</span>
       </button>
-      <nav ref={dropdownRef} className={`menu ${isActive ? 'active' : 'inactive'}`}>
-        <ul>
-          <li><a href="#">San Francisco</a></li>
-          <li><a href="#">Portland</a></li>
-          <li><a href="#">Los Angeles</a></li>
-        </ul>
-      </nav>
+      {isActive &&
+        <nav className={styles.menu}>
+            <ul>
+            <li><a href="#">San Francisco</a></li>
+            <li><a href="#">Portland</a></li>
+            <li><a href="#">Los Angeles</a></li>
+            </ul>
+        </nav>
+      }
     </div>
   );
 };

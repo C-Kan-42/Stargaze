@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://C-Kan-42.github.io/Stargaze",
   "dependencies": {
+    "classnames": "^2.2.6",
     "cra-template": "1.0.3",
     "node-sass": "^4.14.1",
     "prettier": "^2.1.2",
