@@ -16,7 +16,7 @@ function App() {
         <Header header="Stargaze"/>
         <ContentLayout>
           <Switch>
-            <Route exact path="/" component={DropdownMenu} />
+            <Route exact path="/Stargaze" component={DropdownMenu} />
             <Route exact path="/about" component={About} />
             <Route exact path="/sf" render={() => <Location title={"San Francisco"} />} />
             <Route exact path="/pdx" render={() => <Location title={"Portland"} />} />

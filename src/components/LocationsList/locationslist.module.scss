@@ -1,0 +1,17 @@
+@import '../../global/utils/init';
+@import '../../global/utils/colors';
+
+.listContainer {
+    // width: 35%;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 20px;
+    color: $color-white;
+}
+
+.list {
+    height: auto;
+    overflow: auto;
+    box-sizing: border-box;
+}

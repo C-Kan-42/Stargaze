@@ -1,0 +1,34 @@
+@import '../../global/utils/init';
+@import '../../global/utils/colors';
+
+.cardContainer {
+    // color: $color-white;
+    box-shadow: 0px 2px 3px rgba(250,250,250,0.1);
+    font-size: 12px;
+    display: block;
+    cursor: pointer;
+    line-height: 1.3;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(240,240,240) !important;
+    margin-bottom: 0;
+    padding: 20px;
+    border-radius: 0;
+}
+
+.name {
+    font-size: 14px;
+    padding: 4px 0;
+    box-sizing: border-box;
+}
+
+.address {
+    font-size: 13px;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+.distance {
+    padding-bottom: 2px;
+    box-sizing: border-box;
+}

@@ -3,32 +3,62 @@
 .header {
     // @include font-stack-primary;
     font-family: 'Codystar', cursive;
+    font-weight: bold;
     background-color: $color-black;
     // color: $primary-font-color;
-    display: block;
+    overflow: hidden;
     height: 80px;
     left: 0px;
     width: 100%;
     padding-left: 60px;
     padding-right: 60px;
-    display: flex;
+    // padding: 20px 10px;
+    // display: flex;
     align-items: center;
-    justify-content: space-around;
     margin: auto;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;
 }
 
-.link {
-    flex: 0;
-    color: $color-white;
-    text-decoration: none;
+.header a {
+  float: left;
+  color: $color-white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
 }
 
+.header a.logo {
+  font-size: 25px;
+}
 
+.header a:hover {
+  background-color: $color-white;
+  color: $color-black;
+  transition-delay: 2ms;
+}
 
-.nav {
-  margin-left: auto;
-  align-content: space-between;
+.header a.active {
+  background-color: $color-white;
+  color: $color-black;
+}
+
+.headerright {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
 }
