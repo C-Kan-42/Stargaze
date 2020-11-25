@@ -1,10 +1,10 @@
 @import '../../global/utils/init';
 @import '../../global/utils/colors';
 
-.map {
-    // height: 380px !important;
-    display: block;
-    position: absolute;
+:global(.mapboxgl-map) {
+    height: 380px !important;
+    // display: block;
+    // position: absolute;
     width: 100%;
-    overflow: hidden;
+    // overflow: hidden;
 }
