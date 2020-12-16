@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Stargaze/static/css/main.aa02e7dc.chunk.css",
-    "main.js": "/Stargaze/static/js/main.56b2b33a.chunk.js",
-    "main.js.map": "/Stargaze/static/js/main.56b2b33a.chunk.js.map",
+    "main.js": "/Stargaze/static/js/main.8cdea274.chunk.js",
+    "main.js.map": "/Stargaze/static/js/main.8cdea274.chunk.js.map",
     "runtime-main.js": "/Stargaze/static/js/runtime-main.05ddc7a1.js",
     "runtime-main.js.map": "/Stargaze/static/js/runtime-main.05ddc7a1.js.map",
     "static/js/2.384f2e97.chunk.js": "/Stargaze/static/js/2.384f2e97.chunk.js",
     "static/js/2.384f2e97.chunk.js.map": "/Stargaze/static/js/2.384f2e97.chunk.js.map",
     "index.html": "/Stargaze/index.html",
-    "precache-manifest.ffe18c3f84b25bcc3ce5ffca82c93fc6.js": "/Stargaze/precache-manifest.ffe18c3f84b25bcc3ce5ffca82c93fc6.js",
+    "precache-manifest.5430b9e138b4632c4f17cd87919d0bf7.js": "/Stargaze/precache-manifest.5430b9e138b4632c4f17cd87919d0bf7.js",
     "service-worker.js": "/Stargaze/service-worker.js",
     "static/css/main.aa02e7dc.chunk.css.map": "/Stargaze/static/css/main.aa02e7dc.chunk.css.map",
     "static/js/2.384f2e97.chunk.js.LICENSE.txt": "/Stargaze/static/js/2.384f2e97.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.05ddc7a1.js",
     "static/js/2.384f2e97.chunk.js",
     "static/css/main.aa02e7dc.chunk.css",
-    "static/js/main.56b2b33a.chunk.js"
+    "static/js/main.8cdea274.chunk.js"
   ]
 }
