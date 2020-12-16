@@ -17,10 +17,10 @@ function App() {
         <ContentLayout>
           <Switch>
             <Route exact path="/Stargaze" component={DropdownMenu} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/sf" render={() => <Location title={"San Francisco"} lat={37.7749} lng={-122.4194} />} />
-            <Route exact path="/pdx" render={() => <Location title={"Portland"} lat={45.5051} lng={-122.6750} />} />
-            <Route exact path="/la" render={() => <Location title={"Los Angeles"} lat={34.0522} lng={-118.2437} />} />
+            <Route path="/about" component={About} />
+            <Route path="/sf" render={() => <Location title={"San Francisco"} lat={37.7749} lng={-122.4194} />} />
+            <Route path="/pdx" render={() => <Location title={"Portland"} lat={45.5051} lng={-122.6750} />} />
+            <Route path="/la" render={() => <Location title={"Los Angeles"} lat={34.0522} lng={-118.2437} />} />
             <Route component={NoMatch} />
           </Switch>
         </ContentLayout>

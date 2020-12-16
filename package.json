@@ -2,7 +2,7 @@
   "name": "stargaze",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://C-Kan-42.github.io/Stargaze",
+  "homepage": "http://carinakan.com/Stargaze",
   "dependencies": {
     "classnames": "^2.2.6",
     "cra-template": "1.0.3",
