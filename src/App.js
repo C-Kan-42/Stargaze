@@ -16,11 +16,11 @@ function App() {
         <Header header="Stargaze"/>
         <ContentLayout>
           <Switch>
-            <Route exact path="/Stargaze" component={DropdownMenu} />
-            <Route path="/Stargaze/about" component={About} />
-            <Route path="/Stargaze/sf" render={() => <Location title={"San Francisco"} lat={37.7749} lng={-122.4194} />} />
-            <Route path="/Stargaze/pdx" render={() => <Location title={"Portland"} lat={45.5051} lng={-122.6750} />} />
-            <Route path="/Stargaze/la" render={() => <Location title={"Los Angeles"} lat={34.0522} lng={-118.2437} />} />
+            <Route exact path="/" component={DropdownMenu} />
+            <Route path="/about" component={About} />
+            <Route path="/sf" render={() => <Location title={"San Francisco"} lat={37.7749} lng={-122.4194} />} />
+            <Route path="/pdx" render={() => <Location title={"Portland"} lat={45.5051} lng={-122.6750} />} />
+            <Route path="/la" render={() => <Location title={"Los Angeles"} lat={34.0522} lng={-118.2437} />} />
             <Route component={NoMatch} />
           </Switch>
         </ContentLayout>

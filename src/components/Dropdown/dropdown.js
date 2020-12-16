@@ -15,9 +15,9 @@ const DropdownMenu = () => {
       {isActive &&
         <nav className={styles.menu}>
             <ul>
-            <li><a href="/Stargaze/sf">San Francisco</a></li>
-            <li><a href="/Stargaze/pdx">Portland</a></li>
-            <li><a href="/Stargaze/la">Los Angeles</a></li>
+            <li><a href="/sf">San Francisco</a></li>
+            <li><a href="/pdx">Portland</a></li>
+            <li><a href="/la">Los Angeles</a></li>
             </ul>
         </nav>
       }
